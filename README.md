@@ -6,5 +6,5 @@ The project is built using Netbeans IDE. To use this project, just clone the rep
 
 ![alt text](https://github.com/PushpinderSinghGrewal/LanChatApp/blob/master/lanchatapp.jpeg)
 
- In the message box type the message you want to write and click on send. The message will be sent to all the users who are online and are in the same Local area network.
+ In the **Chat Window** box type the message you want to write and click on **Send**. The message will be sent to all the users who are online and are in the same Local Area Network.
 
