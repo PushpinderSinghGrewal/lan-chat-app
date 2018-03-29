@@ -4,4 +4,5 @@ connect and text other users. Multiple users can text at the same time.
 The project is built using Netbeans IDE. To use this project, just clone the repository and open the project using netbeans IDE.
 # App in working
 
+![alt text](https://github.com/PushpinderSinghGrewal/LanChatApp/lanchatapp.jpg)
 
