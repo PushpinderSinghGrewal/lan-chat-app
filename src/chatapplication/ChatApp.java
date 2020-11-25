@@ -24,7 +24,7 @@ public class ChatApp extends javax.swing.JFrame {
         
      this.setUndecorated(true);
         initComponents();
-      // getContentPane().setBackground(Color.GRAY);
+      // getContentPane().setBackground(Color.Black);
         this.setLocationRelativeTo(null);
         
         
@@ -43,11 +43,11 @@ public class ChatApp extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setBackground(new java.awt.Color(255, 255, 153));
-        setFont(new java.awt.Font("Cambria Math", 3, 10)); // NOI18N
+        setBackground(new java.awt.Color(0, 0, 0));
+        setFont(new java.awt.Font("Rockwell", 3, 10)); // NOI18N
         setForeground(new java.awt.Color(255, 0, 0));
 
-        jButton2.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jButton2.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jButton2.setText("Login to Chat Room");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -55,7 +55,7 @@ public class ChatApp extends javax.swing.JFrame {
             }
         });
 
-        jButton3.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jButton3.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jButton3.setText("Exit");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
