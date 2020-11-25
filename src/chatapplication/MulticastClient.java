@@ -70,17 +70,17 @@ public static DatagramSocket s=null;
 
         jTextArea1.setEditable(false);
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Calibri Light", 0, 18)); // NOI18N
+        jTextArea1.setFont(new java.awt.Font("Rockwell", 0, 18)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
         jScrollPane1.setViewportView(jTextArea1);
 
         jTextArea2.setColumns(20);
-        jTextArea2.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jTextArea2.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jTextArea2.setRows(5);
         jScrollPane2.setViewportView(jTextArea2);
 
-        jLabel1.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jLabel1.setText("Enter  your  message  here");
 
         jButton2.setText("Exit from Chat");
@@ -90,7 +90,7 @@ public static DatagramSocket s=null;
             }
         });
 
-        jLabel2.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jLabel2.setText("Chat Window");
 
         jTextArea3.setEditable(false);
@@ -98,7 +98,7 @@ public static DatagramSocket s=null;
         jTextArea3.setRows(5);
         jScrollPane3.setViewportView(jTextArea3);
 
-        jLabel3.setFont(new java.awt.Font("Gabriola", 1, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Rockwell", 1, 24)); // NOI18N
         jLabel3.setText("Online users");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
