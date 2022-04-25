@@ -43,7 +43,7 @@ public class OnlineStatus implements Runnable{
                
               s.send(packet);  
               //System.out.println(Math.random());
-             try{sleep((long)(Math.random() * 20000));
+             try{sleep((long)(Math.random() * 20000) );
               
              }catch(Exception e){}
                }       
@@ -67,6 +67,7 @@ ReceiveOnlineStatus(){
         
         address=InetAddress.getByName("230.0.0.2");
       socket.joinGroup(address);
+         socket.getChannel();
       }
         catch(Exception e)
         {System.err.println("error");
